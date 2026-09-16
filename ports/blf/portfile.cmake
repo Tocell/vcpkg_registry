@@ -10,8 +10,8 @@ vcpkg_check_linkage(ONLY_DYNAMIC_LIBRARY)
 
 vcpkg_from_git(
         OUT_SOURCE_PATH SOURCE_PATH
-        URL "git@github.com:Tocell/BLF.git" # 内部 Git 地址 (推荐 SSH)
-        REF 2.0.1                           # 填完整的 commit hash 或稳定的 tag（如 v1.0.1）
+        URL "git@github.com:Tocell/BLF.git"                 # 内部 Git 地址 (推荐 SSH)
+        REF e4d3020ecaa2a03d5a360559152b3a3a3f652ec0        # 填完整的 commit hash 或稳定的 tag（如 v1.0.1）
 )
 
 vcpkg_cmake_configure(
