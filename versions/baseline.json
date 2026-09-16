@@ -1,0 +1,8 @@
+{
+  "default": {
+    "blf": {
+      "baseline": "2.0.1",
+      "port-version": 0
+    }
+  }
+}
